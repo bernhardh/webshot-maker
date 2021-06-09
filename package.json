@@ -1,0 +1,19 @@
+{
+  "name": "webshot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "images": "^3.2.3",
+    "webshot-node": "^0.18.2",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "patch-package": "^6.4.7"
+  },
+  "scripts": {
+    "postinstall": "patch-package"
+  },
+  "author": "",
+  "license": "ISC"
+}

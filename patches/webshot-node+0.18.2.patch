@@ -1,0 +1,13 @@
+diff --git a/node_modules/webshot-node/lib/options.js b/node_modules/webshot-node/lib/options.js
+index b7c6ce0..51d9989 100644
+--- a/node_modules/webshot-node/lib/options.js
++++ b/node_modules/webshot-node/lib/options.js
+@@ -29,7 +29,7 @@ exports.phantom = {
+ };
+ 
+ // Options that are just passed to the phantom page object
+-exports.phantomPage = ['paperSize', 'customHeaders', 'settings'];
++exports.phantomPage = ['paperSize', 'customHeaders', 'settings', 'zoomFactor'];
+ 
+ // Options that are callbacks for various phantom events
+ exports.phantomCallback = ['onAlert', 'onCallback', 'onClosing', 'onConfirm',
